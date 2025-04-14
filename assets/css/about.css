@@ -1,0 +1,23 @@
+.sky-blue-button {
+  background-color: #87ceeb; /* Azul céu clássico */
+  color: white; /* Texto branco para contraste */
+  border: none; /* Remove a borda padrão */
+  padding: 12px 24px; /* Espaçamento interno confortável */
+  border-radius: 25px; /* Bordas completamente arredondadas */
+  font-size: 16px; /* Tamanho legível */
+  font-weight: bold; /* Texto em negrito */
+  cursor: pointer; /* Mostra que é clicável */
+  transition: all 0.3s ease; /* Suaviza efeitos de hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sútíl */
+}
+
+.sky-blue-button:hover {
+  background-color: #6cb4ee; /* Tom levemente mais escuro no hover */
+  transform: translateY(-2px); /* Efeito de levantar */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
+
+.sky-blue-button:active {
+  transform: translateY(0); /* Efeito de pressionar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra menor */
+}
